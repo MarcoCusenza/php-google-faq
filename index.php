@@ -66,11 +66,53 @@ $faqs = [
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Google FAQ</title>
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- FONTAWESOME CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- MYCSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header></header>
+  <header>
+    <div class="header-top">
+      <div class="htop-left">
+        <img src="img/google.svg" alt="Google Logo">
+        <span class="description">Privacy e termini</span>
+      </div>
+      <div class="htop-right">
+        <a href="#" class="apps"><i class="fas fa-th"></i></a>
+        <a href="#" class="btn">Accedi</a>
+      </div>
+
+    </div>
+    <div class="header-bottom">
+      <ul>
+        <li>
+          <a href="#">Introduzione</a>
+        </li>
+        <li>
+          <a href="#">Norme sulla privacy</a>
+        </li>
+        <li>
+          <a href="#">Termini di servizio</a>
+        </li>
+        <li>
+          <a href="#">Tecnologie</a>
+        </li>
+        <li>
+          <a href="#">Domande frequenti</a>
+        </li>
+      </ul>
+    </div>
+    <hr>
+  </header>
 
   <main>
     <div class="container">
