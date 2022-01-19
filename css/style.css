@@ -20,6 +20,8 @@ h2 {
 
 p {
   padding: 20px 0;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 a {
@@ -33,4 +35,21 @@ a:visited {
 
 .faq {
   padding: 25px 0;
+}
+
+ol{
+  font-size: 14px;
+  line-height: 24px;
+}
+
+li{
+  padding: 10px 0;
+}
+
+ol.lvl1{
+  margin-left: 20px;
+}
+
+ol.lvl2{
+  margin-left: 20px;
 }
