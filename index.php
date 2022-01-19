@@ -127,7 +127,19 @@ $faqs = [
     </div>
   </main>
 
-  <footer></footer>
+  <footer>
+    <div class="container">
+      <ul>
+        <li><a href="#">Google</a></li>
+        <li><span>-</span></li>
+        <li><a href="#">Tutto su Google</a></li>
+        <li><span>-</span></li>
+        <li><a href="#">Privacy</a></li>
+        <li><span>-</span></li>
+        <li><a href="#">Termini</a></li>
+      </ul>
+    </div>
+  </footer>
 
 </body>
 
